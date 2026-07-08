@@ -14,3 +14,4 @@ from math import *
 def count_digits():
     return int(log10(num)+1)
 print(count_digits())
+
