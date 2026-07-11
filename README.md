@@ -8,6 +8,7 @@ This repository contains a few beginner-friendly Python programs for common numb
 - `PALINDROME.py` - reverses a number and checks whether it is a palindrome.
 - `ARMSTRONG.py` - checks whether a number is an Armstrong number.
 - `FACTORS.py` - prints the factors of a number using brute force, better, and optimal methods.
+- `FREQUENCY_MAP.py` - builds a frequency map of numbers using two simple methods.
 
 ## How to run
 
@@ -18,6 +19,7 @@ python COUNT_DIGITS.py
 python PALINDROME.py
 python ARMSTRONG.py
 python FACTORS.py
+python FREQUENCY_MAP.py
 ```
 
 ## Notes
