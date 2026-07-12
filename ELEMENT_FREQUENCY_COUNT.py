@@ -23,4 +23,18 @@ def Optimal(n,m):
         else :
             print(f"{x} occurs {hash_map[x]} times")
 
-Optimal(n,m)
+def Using_Dict(n,m):
+    freq_count = {}
+    for num in n:
+        if num not in freq_count:
+            freq_count[num] = 1
+        else :
+            freq_count[num] += 1
+
+    for x in m :
+        if x in freq_count:
+            print(f'{x} occurs {freq_count[x]} times')
+        else :
+            print(f"{x} occurs 0 times")
+
+Using_Dict(n,m)
