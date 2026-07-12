@@ -9,6 +9,8 @@ This repository contains a few beginner-friendly Python programs for common numb
 - `ARMSTRONG.py` - checks whether a number is an Armstrong number.
 - `FACTORS.py` - prints the factors of a number using brute force, better, and optimal methods.
 - `FREQUENCY_MAP.py` - builds a frequency map of numbers using two simple methods.
+- `ELEMENT_FREQUENCY_COUNT.py` - counts how often target elements appear in a list using brute force, optimal, and dictionary-based methods.
+- `CHARACTER_FREQUENCY_COUNT.py` - counts character occurrences in a string using a dictionary.
 
 ## How to run
 
@@ -20,6 +22,8 @@ python PALINDROME.py
 python ARMSTRONG.py
 python FACTORS.py
 python FREQUENCY_MAP.py
+python ELEMENT_FREQUENCY_COUNT.py
+python CHARACTER_FREQUENCY_COUNT.py
 ```
 
 ## Notes
