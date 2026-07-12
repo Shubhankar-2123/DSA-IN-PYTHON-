@@ -10,5 +10,17 @@ def BruteForce(n,m):
                 count +=1
         print(f"{num} occurs {count} times")
 
-BruteForce(n,m)
 
+
+def Optimal(n,m):
+    hash_map = [0] * 11
+    for num in n :
+        hash_map[num] += 1
+
+    for x in m :
+        if x < 1 or x >10:
+            print(f"{x} occurs 0 times")
+        else :
+            print(f"{x} occurs {hash_map[x]} times")
+
+Optimal(n,m)
