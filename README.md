@@ -12,6 +12,8 @@ This repository contains a few beginner-friendly Python programs for common numb
 - `ELEMENT_FREQUENCY_COUNT.py` - counts how often target elements appear in a list using brute force, optimal, and dictionary-based methods.
 - `CHARACTER_FREQUENCY_COUNT.py` - counts character occurrences in a string using a dictionary.
  - `RECURSION.py` - small recursion examples: factorial, fibonacci, sum of list, reverse string.
+ - `fUNCTIONAL_RECURSION.py` - functional recursion examples (sum of first n numbers, factorial).
+ - `REVERSE_ARRAY_USING_RECURSION.py` - reverses an array in-place using recursion.
 
 ## How to run
 
@@ -26,6 +28,9 @@ python FREQUENCY_MAP.py
 python ELEMENT_FREQUENCY_COUNT.py
 python CHARACTER_FREQUENCY_COUNT.py
 python RECURSION.py
+
+python fUNCTIONAL_RECURSION.py
+python REVERSE_ARRAY_USING_RECURSION.py
 ```
 
 ## Examples
@@ -146,6 +151,31 @@ fibonacci_recursive(6) 8
 fibonacci_memo(30) 832040
 sum_list_recursive([1,2,3,4]) 10
 reverse_string_recursive('hello') olleh
+```
+
+Functional recursion examples:
+
+```bash
+python fUNCTIONAL_RECURSION.py
+```
+
+Sample output:
+
+```
+10
+120
+```
+
+Reverse array using recursion:
+
+```bash
+python REVERSE_ARRAY_USING_RECURSION.py
+```
+
+Sample output:
+
+```
+[9, 5, 1, 6, 2, 3, 7, 5]
 ```
 
 ## Notes
