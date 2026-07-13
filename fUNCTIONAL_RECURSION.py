@@ -1,0 +1,16 @@
+
+
+# functional recursion
+# sum of n numbers
+def func(n):
+    if n == 1:
+        return 1
+    return n + func(n-1)
+print(func(4))
+
+# factorial of a number
+def fact(n):
+    if n == 1 or n == 0 :
+        return 1
+    return n * fact(n-1)
+print(fact(5))
