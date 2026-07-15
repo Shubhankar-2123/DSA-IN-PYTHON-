@@ -6,14 +6,17 @@ This repository contains a few beginner-friendly Python programs for common numb
 
 - `COUNT_DIGITS.py` - counts the digits in a number using loops and a math-based approach.
 - `PALINDROME.py` - reverses a number and checks whether it is a palindrome.
+- `PALINDROME _USING_RECURSION.py` - checks whether a string is a palindrome using recursion.
 - `ARMSTRONG.py` - checks whether a number is an Armstrong number.
 - `FACTORS.py` - prints the factors of a number using brute force, better, and optimal methods.
 - `FREQUENCY_MAP.py` - builds a frequency map of numbers using two simple methods.
 - `ELEMENT_FREQUENCY_COUNT.py` - counts how often target elements appear in a list using brute force, optimal, and dictionary-based methods.
 - `CHARACTER_FREQUENCY_COUNT.py` - counts character occurrences in a string using a dictionary.
- - `RECURSION.py` - small recursion examples: factorial, fibonacci, sum of list, reverse string.
- - `fUNCTIONAL_RECURSION.py` - functional recursion examples (sum of first n numbers, factorial).
- - `REVERSE_ARRAY_USING_RECURSION.py` - reverses an array in-place using recursion.
+- `RECURSION.py` - small recursion examples: factorial, fibonacci, sum of list, reverse string.
+- `fUNCTIONAL_RECURSION.py` - functional recursion examples (sum of first n numbers, factorial).
+- `REVERSE_ARRAY_USING_RECURSION.py` - reverses an array in-place using recursion.
+- `FIBONACCI_USING_RECURSION.py` - simple recursive fibonacci example (prints fibo(3)).
+- `SELECTION_SORT.py` - demonstrates selection sort (ascending and descending).
 
 ## How to run
 
@@ -31,6 +34,9 @@ python RECURSION.py
 
 python fUNCTIONAL_RECURSION.py
 python REVERSE_ARRAY_USING_RECURSION.py
+python FIBONACCI_USING_RECURSION.py
+python "PALINDROME _USING_RECURSION.py"
+python SELECTION_SORT.py
 ```
 
 ## Examples
@@ -176,6 +182,44 @@ Sample output:
 
 ```
 [9, 5, 1, 6, 2, 3, 7, 5]
+```
+
+Fibonacci (recursive):
+
+```bash
+python FIBONACCI_USING_RECURSION.py
+```
+
+Sample output:
+
+```
+2
+```
+
+Palindrome using recursion:
+
+```bash
+python "PALINDROME _USING_RECURSION.py"
+```
+
+Sample output:
+
+```
+False
+not a palindrome
+```
+
+Selection sort:
+
+```bash
+python SELECTION_SORT.py
+```
+
+Sample output:
+
+```
+[1, 2, 4, 5, 6, 7, 8, 9]
+[9, 8, 7, 6, 5, 4, 2, 1]
 ```
 
 ## Notes
