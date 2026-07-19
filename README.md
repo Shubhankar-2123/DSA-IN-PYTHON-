@@ -14,7 +14,7 @@ This repository contains a few beginner-friendly Python programs for common numb
 - `CHARACTER_FREQUENCY_COUNT.py` - counts character occurrences in a string using a dictionary.
 - `RECURSION.py` - small recursion examples: factorial, fibonacci, sum of list, reverse string.
 - `fUNCTIONAL_RECURSION.py` - functional recursion examples (sum of first n numbers, factorial).
-- `REVERSE_ARRAY_USING_RECURSION.py` - reverses an array in-place using recursion.
+- `REVERSE_ARRAY_USING_RECURSSION.py` - reverses an array in-place using recursion.
 - `FIBONACCI_USING_RECURSION.py` - simple recursive fibonacci example (prints fibo(3)).
 - `SELECTION_SORT.py` - demonstrates selection sort (ascending and descending).
 
@@ -33,7 +33,7 @@ python CHARACTER_FREQUENCY_COUNT.py
 python RECURSION.py
 
 python fUNCTIONAL_RECURSION.py
-python REVERSE_ARRAY_USING_RECURSION.py
+python REVERSE_ARRAY_USING_RECURSSION.py
 python FIBONACCI_USING_RECURSION.py
 python "PALINDROME _USING_RECURSION.py"
 python SELECTION_SORT.py
@@ -175,7 +175,7 @@ Sample output:
 Reverse array using recursion:
 
 ```bash
-python REVERSE_ARRAY_USING_RECURSION.py
+python REVERSE_ARRAY_USING_RECURSSION.py
 ```
 
 Sample output:
