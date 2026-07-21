@@ -24,3 +24,15 @@ def Selection_Sort_descending(nums):
 
 Selection_Sort_Ascending(nums)
 Selection_Sort_descending(nums)
+
+
+
+
+
+
+
+
+
+
+
+                
