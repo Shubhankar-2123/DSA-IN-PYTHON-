@@ -1,4 +1,8 @@
 # DSA in Python
+ 
+Last updated: 2026-07-26
+
+Summary: Synchronized README with workspace files, added examples and sample outputs for all scripts, and corrected filenames where necessary.
 
 This repository contains a few beginner-friendly Python programs for common number-based DSA practice problems.
 
