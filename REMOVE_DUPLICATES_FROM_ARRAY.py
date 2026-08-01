@@ -16,6 +16,8 @@ def Remove_Duplicates_Bruteforce(nums):
 
 
 def Remove_Duplicates_Optimal(nums):
+    if len(nums)==1:
+        return 1
     i,j=0,1
     while j<len(nums):
         if nums[i] != nums[j]:
