@@ -1,4 +1,4 @@
-nums = [1,0,2,4,3,0,0,5,1]
+nums = [4, 5, 0, 0, 0, 1, 0, 2]
 
 def Move_Zeros_Myversion(nums):
     n = len(nums)
@@ -37,7 +37,7 @@ def Move_Zeros_Optimal(nums):
     print(nums)
     
             
-Move_Zeros_Optimal(nums)
+Move_Zeros_Myversion(nums)
 
 
 
