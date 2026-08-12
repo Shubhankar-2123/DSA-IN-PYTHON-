@@ -1,232 +1,85 @@
 # DSA in Python
- 
-Last updated: 2026-07-26
 
-Summary: Synchronized README with workspace files, added examples and sample outputs for all scripts, and corrected filenames where necessary.
+Last updated: 2026-08-12
 
-This repository contains a few beginner-friendly Python programs for common number-based DSA practice problems.
+This repository contains beginner-focused Python programs for DSA and array problems. The scripts cover number checks, recursion, searching, sorting, and array manipulation techniques.
 
-## Files
+## Project structure
 
-- `COUNT_DIGITS.py` - counts the digits in a number using loops and a math-based approach.
-- `PALINDROME.py` - reverses a number and checks whether it is a palindrome.
-- `PALINDROME _USING_RECURSION.py` - checks whether a string is a palindrome using recursion.
+### Basic number problems
 - `ARMSTRONG.py` - checks whether a number is an Armstrong number.
-- `FACTORS.py` - prints the factors of a number using brute force, better, and optimal methods.
-- `FREQUENCY_MAP.py` - builds a frequency map of numbers using two simple methods.
-- `ELEMENT_FREQUENCY_COUNT.py` - counts how often target elements appear in a list using brute force, optimal, and dictionary-based methods.
-- `CHARACTER_FREQUENCY_COUNT.py` - counts character occurrences in a string using a dictionary.
-- `RECURSION.py` - small recursion examples: factorial, fibonacci, sum of list, reverse string.
-- `fUNCTIONAL_RECURSION.py` - functional recursion examples (sum of first n numbers, factorial).
-- `REVERSE_ARRAY_USING_RECURSSION.py` - reverses an array in-place using recursion.
-- `FIBONACCI_USING_RECURSION.py` - simple recursive fibonacci example (prints fibo(3)).
-- `SELECTION_SORT.py` - demonstrates selection sort (ascending and descending).
+- `COUNT_DIGITS.py` - counts digits in a number.
+- `FACTORS.py` - finds factors using different approaches.
+- `PALINDROME.py` - checks palindrome for numbers.
+
+### Frequency and counting
+- `CHARACTER_FREQUENCY_COUNT.py` - counts character frequency in a string.
+- `ELEMENT_FREQUENCY_COUNT.py` - counts values in a list.
+- `FREQUENCY_MAP.py` - builds a frequency map using dictionary logic.
+
+### Recursion
+- `RECURSION.py` - factorial, fibonacci, reverse string, and list sum examples.
+- `fUNCTIONAL_RECURSION.py` - recursive sum and factorial examples.
+- `FIBONACCI_USING_RECURSION.py` - recursive Fibonacci implementation.
+- `PALINDROME _USING_RECURSION.py` - palindrome check using recursion.
+- `REVERSE_ARRAY_USING_RECURSSION.py` - reverse array using recursion.
+
+### Sorting
+- `BUBBLE_SORT.py` - bubble sort implementation.
+- `INSERTION_SORT.py` - insertion sort implementation.
+- `MERGE_SORT.py` - merge sort implementation.
+- `QUICK_SORT.py` - quick sort implementation.
+- `SELECTION_SORT.py` - selection sort implementation.
+
+### Searching and array problems
+- `CHECK_IF_SORTED_ARR.py` - checks whether an array is sorted.
+- `FIND_MISSING_NUMBER.py` - finds a missing number in a list.
+- `K_ROTATIONS.py` - rotates an array by K positions.
+- `LARGEST_ELEMENT_IN_ARR.py` - finds the largest element.
+- `LINEAR_SEARCH.py` - linear search implementation.
+- `LONGEST_CONSECUTIVE_SEQUENCE.py` - finds the longest consecutive sequence.
+- `MAXIMUM_SUBARRAY_SUM.py` - maximum subarray sum problem.
+- `MAX_CONSeCUTIVES_ONES.py` - counts consecutive ones in a binary array.
+- `MERGE_SORDETD_ARRAY.py` - merges sorted arrays.
+- `MOVE_ZEROS_TO_END.py` - moves zeros to the end.
+- `REARRANGE_ELEMENTS_BY_SIGN.py` - rearranges signed numbers.
+- `REMOVE_DUPLICATES_FROM_ARRAY.py` - removes duplicate values.
+- `SECOND_LARGEST_ELEMENT_IN_ARR.py` - finds the second largest value.
+- `STOCK_BUY_SELL.py` - stock buy and sell problem.
+- `TW0_SUM.py` - two-sum problem.
 
 ## How to run
 
 Run any script directly with Python:
 
 ```bash
-python COUNT_DIGITS.py
-python PALINDROME.py
 python ARMSTRONG.py
+python COUNT_DIGITS.py
 python FACTORS.py
-python FREQUENCY_MAP.py
-python ELEMENT_FREQUENCY_COUNT.py
+python PALINDROME.py
 python CHARACTER_FREQUENCY_COUNT.py
+python ELEMENT_FREQUENCY_COUNT.py
+python FREQUENCY_MAP.py
 python RECURSION.py
-
 python fUNCTIONAL_RECURSION.py
-python REVERSE_ARRAY_USING_RECURSSION.py
 python FIBONACCI_USING_RECURSION.py
 python "PALINDROME _USING_RECURSION.py"
-python SELECTION_SORT.py
-```
-
-## Examples
-
-Character frequency example:
-
-Run:
-
-```bash
-python CHARACTER_FREQUENCY_COUNT.py
-```
-
-Sample output:
-
-```
-Occurence of d is 0
-occurence of a is 5
-occurence of y is 2
-occurence of x is 1
-{'a': 5, 'z': 3, 'y': 2, 'x': 1}
-```
-
-Other examples:
-
-Count digits:
-
-```bash
-python COUNT_DIGITS.py
-```
-
-Sample output:
-
-```
-4
-4
-```
-
-Check palindrome:
-
-```bash
-python PALINDROME.py
-```
-
-Sample output:
-
-```
-Not a Palindrome
-```
-
-Armstrong check:
-
-```bash
-python ARMSTRONG.py
-```
-
-Sample output:
-
-```
-Is a Armstrong.
-```
-
-Factors (n = 36):
-
-```bash
-python FACTORS.py
-```
-
-Sample output:
-
-```
-[1, 2, 3, 4, 6, 9, 12, 18, 36]
-[1, 2, 3, 4, 6, 9, 12, 18, 36]
-[1, 36, 2, 18, 3, 12, 4, 9, 6]
-```
-
-Frequency map:
-
-```bash
-python FREQUENCY_MAP.py
-```
-
-Sample output (order may vary):
-
-```
-{5: 2, 6: 1, 7: 2, 1: 5, 9: 1, 111: 1}
-{5: 2, 6: 1, 7: 2, 1: 5, 9: 1, 111: 1}
-```
-
-Element frequency count:
-
-```bash
-python ELEMENT_FREQUENCY_COUNT.py
-```
-
-Sample output:
-
-```
-10 occurs 1
-111 occurs 0
-1 occurs 1
-9 occurs 0
-5 occurs 4
-67 occurs 0
-2 occurs 2
-```
-
-Recursion examples:
-
-```bash
-python RECURSION.py
-```
-
-Sample output:
-
-```
-factorial_recursive(5) 120
-fibonacci_recursive(6) 8
-fibonacci_memo(30) 832040
-sum_list_recursive([1,2,3,4]) 10
-reverse_string_recursive('hello') olleh
-```
-
-Functional recursion examples:
-
-```bash
-python fUNCTIONAL_RECURSION.py
-```
-
-Sample output:
-
-```
-10
-120
-```
-
-Reverse array using recursion:
-
-```bash
 python REVERSE_ARRAY_USING_RECURSSION.py
-```
-
-Sample output:
-
-```
-[9, 5, 1, 6, 2, 3, 7, 5]
-```
-
-Fibonacci (recursive):
-
-```bash
-python FIBONACCI_USING_RECURSION.py
-```
-
-Sample output:
-
-```
-2
-```
-
-Palindrome using recursion:
-
-```bash
-python "PALINDROME _USING_RECURSION.py"
-```
-
-Sample output:
-
-```
-False
-not a palindrome
-```
-
-Selection sort:
-
-```bash
+python BUBBLE_SORT.py
+python INSERTION_SORT.py
+python MERGE_SORT.py
+python QUICK_SORT.py
 python SELECTION_SORT.py
-```
-
-Sample output:
-
-```
-[1, 2, 4, 5, 6, 7, 8, 9]
-[9, 8, 7, 6, 5, 4, 2, 1]
+python LINEAR_SEARCH.py
+python LARGEST_ELEMENT_IN_ARR.py
+python SECOND_LARGEST_ELEMENT_IN_ARR.py
+python CHECK_IF_SORTED_ARR.py
+python MOVE_ZEROS_TO_END.py
+python TW0_SUM.py
+python STOCK_BUY_SELL.py
 ```
 
 ## Notes
-
-- These scripts are written as simple practice examples.
-- You can edit the input values inside each file to test different numbers.
+- These files are simple practice scripts for learning DSA patterns and Python fundamentals.
+- You can edit the sample values inside each file to test different inputs.
+- Some filenames intentionally include spaces or non-standard casing, so they should be run with quotes when needed.
