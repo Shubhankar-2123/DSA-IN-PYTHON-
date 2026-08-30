@@ -1,18 +1,18 @@
 # DSA in Python
 
-Last updated: 2026-08-17
+Last updated: 2026-08-30
 
-This repository contains beginner-level Python programs focused on data structures, algorithms, and recursion practice. Each script is designed to help understand core DSA concepts through simple, readable examples.
+This repository contains beginner-friendly Python programs for DSA and array problems. The scripts cover number checks, recursion, sorting, searching, and matrix/array manipulation challenges.
 
 ## Project overview
 
-The repository covers:
-- Number-based problems such as Armstrong, factors, and digit counting
-- String and array manipulation
-- Frequency counting and data aggregation
-- Recursion-based logic and problems
-- Searching and sorting algorithms
-- Common interview-style array problems
+This repo includes solutions for:
+- Number-based problems such as Armstrong, digit count, factors, and palindrome checks
+- Frequency counting and dictionary-based problems
+- Recursion-based logic and patterns
+- Sorting algorithms
+- Searching and array interview problems
+- Matrix and grid problems
 
 ## Project structure
 
@@ -23,16 +23,16 @@ The repository covers:
 - `PALINDROME.py` - checks whether a number is a palindrome.
 
 ### Frequency and counting
-- `CHARACTER_FREQUENCY_COUNT.py` - counts character frequency in a string.
-- `ELEMENT_FREQUENCY_COUNT.py` - counts values in a list.
+- `CHARACTER_FREQUENCY_COUNT.py` - counts character frequencies in a string.
+- `ELEMENT_FREQUENCY_COUNT.py` - counts repeated values in a list.
 - `FREQUENCY_MAP.py` - builds a dictionary-based frequency map.
 
 ### Recursion
-- `RECURSION.py` - factorial, Fibonacci, reverse string, and list sum examples.
-- `fUNCTIONAL_RECURSION.py` - recursive examples using functional style.
+- `RECURSION.py` - factorial, Fibonacci, reverse-string, and list-sum examples.
+- `fUNCTIONAL_RECURSION.py` - recursive sum and factorial examples.
 - `FIBONACCI_USING_RECURSION.py` - recursive Fibonacci implementation.
-- `PALINDROME _USING_RECURSION.py` - palindrome check using recursion with two pointers.
-- `REVERSE_ARRAY_USING_RECURSSION.py` - reverse an array using recursive logic.
+- `PALINDROME _USING_RECURSION.py` - palindrome check using recursion.
+- `REVERSE_ARRAY_USING_RECURSSION.py` - reverses an array with recursion.
 
 ### Sorting
 - `BUBBLE_SORT.py` - bubble sort implementation.
@@ -42,25 +42,30 @@ The repository covers:
 - `SELECTION_SORT.py` - selection sort implementation.
 
 ### Searching and array problems
-- `CHECK_IF_SORTED_ARR.py` - checks if an array is sorted.
-- `FIND_MISSING_NUMBER.py` - finds a missing number in a list.
+- `CHECK_IF_SORTED_ARR.py` - checks whether an array is sorted.
+- `FIND_MISSING_NUMBER.py` - finds a missing value from an array.
 - `K_ROTATIONS.py` - rotates an array by K positions.
 - `LARGEST_ELEMENT_IN_ARR.py` - finds the largest element in an array.
 - `LINEAR_SEARCH.py` - linear search implementation.
 - `LONGEST_CONSECUTIVE_SEQUENCE.py` - finds the longest consecutive sequence.
-- `MAXIMUM_SUBARRAY_SUM.py` - maximum subarray sum problem.
+- `MAXIMUM_SUBARRAY_SUM.py` - computes the maximum subarray sum.
 - `MAX_CONSeCUTIVES_ONES.py` - counts consecutive ones.
 - `MERGE_SORDETD_ARRAY.py` - merges two sorted arrays.
-- `MOVE_ZEROS_TO_END.py` - moves zero values to the end.
+- `MOVE_ZEROS_TO_END.py` - moves zero values to the end of the array.
 - `REARRANGE_ELEMENTS_BY_SIGN.py` - rearranges signed values.
-- `REMOVE_DUPLICATES_FROM_ARRAY.py` - removes duplicate values.
-- `SECOND_LARGEST_ELEMENT_IN_ARR.py` - finds the second largest number.
+- `REMOVE_DUPLICATES_FROM_ARRAY.py` - removes duplicate elements.
+- `SECOND_LARGEST_ELEMENT_IN_ARR.py` - finds the second largest element.
 - `STOCK_BUY_SELL.py` - stock buy and sell problem.
 - `TW0_SUM.py` - two-sum problem.
 
+### Matrix and grid problems
+- `ROTATE_MATRIX_BY_90.py` - rotates a matrix by 90 degrees.
+- `SET_MATRIX_ZEROS.py` - sets matrix rows/columns to zero when a zero is found.
+- `SPRIAL_ORDER_MATRIX.py` - traverses a matrix in spiral order.
+
 ## How to run
 
-Run a script directly with Python:
+Run any script directly with Python:
 
 ```bash
 python ARMSTRONG.py
@@ -87,13 +92,22 @@ python CHECK_IF_SORTED_ARR.py
 python MOVE_ZEROS_TO_END.py
 python TW0_SUM.py
 python STOCK_BUY_SELL.py
+python FIND_MISSING_NUMBER.py
+python K_ROTATIONS.py
+python MAXIMUM_SUBARRAY_SUM.py
+python LONGEST_CONSECUTIVE_SEQUENCE.py
+python REMOVE_DUPLICATES_FROM_ARRAY.py
+python REARRANGE_ELEMENTS_BY_SIGN.py
+python ROTATE_MATRIX_BY_90.py
+python SET_MATRIX_ZEROS.py
+python SPRIAL_ORDER_MATRIX.py
 ```
 
 ## Notes
 - These files are practice scripts intended for learning DSA patterns and Python fundamentals.
-- You can modify the sample values in each file to test new inputs.
-- Some filenames contain spaces or inconsistent casing, so they should be run with quotes when needed.
+- You can modify the sample values inside each file to test new inputs.
+- Some filenames include spaces or inconsistent casing, so they should be run with quotes when necessary.
 
 ## Commit caption
 
-Added recursive palindrome implementation and refreshed the project README to document the DSA practice scripts and their usage clearly.
+Update README for the latest DSA scripts, add matrix problem coverage, and refresh project documentation for easier navigation.
